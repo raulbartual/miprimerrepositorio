@@ -5,4 +5,5 @@
 - Las fuentes relacionadas, como se mencionan en mi web?
 - Es una web del dia del pijama, NO de ASAEF
 - Hace falta logotipo? Crearlo?
+- ¿El codigo fuente de todas las paginas? Textos, imagenes, formularios .....
 
