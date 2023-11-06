@@ -1,0 +1,16 @@
+.caja {
+    height: 200px;
+   
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+
+section{
+    background-color: bisque;
+    margin-bottom: 10px;
+}
+
+header{
+    background-color: blue;
+    color: aliceblue;
+}
