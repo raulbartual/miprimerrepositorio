@@ -8,18 +8,11 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(0,0,0, 0.4);
+    background-color: rgba(0,0,0);
     color: aliceblue;
     position: sticky;
     top: 0;
     z-index: 100;
-}
-.hero {
-    height: 300px;
-    background-color: rgb(205, 231, 222);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 
@@ -28,3 +21,5 @@ header{
     background-color: aquamarine;
     border: 2px solid black;
 }
+
+/* ---- PAGINA DE CONTACTO */
