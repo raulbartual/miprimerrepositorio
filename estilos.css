@@ -2,24 +2,89 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 
-header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgba(0,0,0);
-    color: aliceblue;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+
+
+/* ---- PAGINA INDEX (INICIO) ------ */
+
+.hero{
+    background-color: aquamarine;
+    background-image: url(imagenes/muchacha.jpg);
 }
+
+ .hero{
+    height: 400px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+ }
+
+ .hero::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.6);
+    z-index: -10;
+ }
+
+ 
+/* ---- SECCIONES ------- */
+
+ section{
+    margin-bottom: 20px;
+ }
 
 
 .caja {
-    height: 200px;
-    background-color: aquamarine;
-    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    font-size: 1em;
+    gap: 10px;
+    line-height: 20px;
+    
 }
 
-/* ---- PAGINA DE CONTACTO */
+/* ---- SECCION DOS ------ */
+.caja .tarjeta {
+    height: 200PX;
+    background-color: rgb(144, 144, 165);
+    padding: 10PX;
+    border-radius: 5px;
+}
+.caja .tarjeta p { 
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.caja .info {
+    border: 4px solid rgb(144, 144, 165);
+    border-radius: 5px;
+    width: 90%;
+    margin-top: -60px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+
+/* ---- PAGINA DE BLOG */
+
+.img{
+    width: 100%;
+    height: 150px;
+    background-color: antiquewhite;
+}
+
