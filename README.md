@@ -1,3 +1,3 @@
 # miprimerrepositorio
 # segundo encabezado
-!(imagenes/muchacha.jpg)
+![foto de la muchacha](imagenes/muchacha.jpg)
